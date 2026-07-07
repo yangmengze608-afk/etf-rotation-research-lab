@@ -1,13 +1,13 @@
-# B17 Strategy Dashboard
+# ETF Rotation Research Lab
 
-Public-safe interactive portfolio dashboard for the B17 ETF rotation research line.
+Public-safe interactive portfolio dashboard for an ETF rotation research system.
 
 ## Scope
 
 - Static resume / GitHub Pages-ready web page.
 - Reads only public-safe JSON generated from local research artifacts.
 - Does not include account data, tokens, broker state, or live order capability.
-- Does not change B17 strategy logic.
+- Does not change underlying strategy logic.
 
 ## Build Data
 

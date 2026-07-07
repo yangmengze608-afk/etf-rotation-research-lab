@@ -15,7 +15,7 @@ const i18n = {
     navEngineering: "工程证据",
     heroKicker: "公开简历项目 · 研究边界清晰",
     heroTitle: "从 ETF 轮动假设到模拟执行链路的完整量化研究系统",
-    heroLede: "B17 将特征工程、滚动回测、换手约束、模拟盘跟踪、5 分钟卖出执行研究和公开展示链路串成一个可验证项目。",
+    heroLede: "这个项目将特征工程、滚动回测、换手约束、模拟盘跟踪、5 分钟卖出执行研究和公开展示链路串成一个可验证系统。",
     heroCta: "查看策略证据",
     heroCta2: "查看安全边界",
     statusLabel: "当前状态",
@@ -28,7 +28,7 @@ const i18n = {
     guardrailProdText: "没有任何 5m 卖出规则接入生产策略。",
     compareKicker: "Same-period backtest",
     compareTitle: "相同区间下的策略对比",
-    compareText: "用同一信号日窗口比较 B17 base、Hold Bonus 和 Core2/Satellite，避免只挑单条曲线讲故事。",
+    compareText: "用同一信号日窗口比较基准 5D、Hold Bonus 和 Core2/Satellite，避免只挑单条曲线讲故事。",
     windowLabel: "回测窗口",
     thStrategy: "策略",
     thReturn: "总收益",
@@ -63,7 +63,7 @@ const i18n = {
     warning: "警告",
   },
   en: {
-    brandTitle: "ETF Strategy Research",
+    brandTitle: "ETF Rotation Lab",
     brandSub: "Interactive Strategy Case Study",
     navCompare: "Comparison",
     navExplorer: "Backtest",
@@ -71,7 +71,7 @@ const i18n = {
     navEngineering: "Engineering",
     heroKicker: "Resume-ready case study · explicit research boundaries",
     heroTitle: "A full quant research system from ETF rotation hypothesis to simulated execution",
-    heroLede: "B17 connects feature engineering, walk-forward tests, turnover constraints, simulated tracking, 5-minute execution research, and public deployment into one verifiable project.",
+    heroLede: "This project connects feature engineering, walk-forward tests, turnover constraints, simulated tracking, 5-minute execution research, and public deployment into one verifiable system.",
     heroCta: "Explore evidence",
     heroCta2: "Read guardrails",
     statusLabel: "Current status",
@@ -84,7 +84,7 @@ const i18n = {
     guardrailProdText: "No 5m sell rule is connected to production strategy logic.",
     compareKicker: "Same-period backtest",
     compareTitle: "Strategy comparison on matched windows",
-    compareText: "B17 base, Hold Bonus, and Core2/Satellite are compared on the same signal-day windows to avoid cherry-picking a single curve.",
+    compareText: "Baseline 5D, Hold Bonus, and Core2/Satellite are compared on the same signal-day windows to avoid cherry-picking a single curve.",
     windowLabel: "Backtest window",
     thStrategy: "Strategy",
     thReturn: "Total return",
@@ -121,7 +121,7 @@ const i18n = {
 };
 
 const strategyNames = {
-  b17_base_5d: "B17 Base 5D",
+  b17_base_5d: "Baseline 5D",
   "hold_bonus_1.0": "Hold Bonus",
   core2_satellite1: "Core2 / Satellite",
 };

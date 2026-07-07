@@ -160,7 +160,7 @@ def main() -> int:
             "no_production_sell_rule": True,
         },
         "project": {
-            "name": "B17 ETF Rotation Research System",
+            "name": "ETF Rotation Research Lab",
             "scope": "A-share ETF rotation research, simulated execution, and non-production execution-policy validation.",
             "primary_strategies": ["b17_base_5d", "hold_bonus_1.0", "core2_satellite1"],
             "status": "research-to-paper system; not a production trading system",
