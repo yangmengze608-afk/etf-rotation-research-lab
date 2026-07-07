@@ -1,0 +1,6599 @@
+{
+  "version": "strategy-dashboard-public-v0.1",
+  "generated_at": "2026-07-07T04:34:33.553583+00:00",
+  "public_safety": {
+    "research_only": true,
+    "not_investment_advice": true,
+    "no_tokens_or_account_data": true,
+    "no_production_sell_rule": true
+  },
+  "project": {
+    "name": "B17 ETF Rotation Research System",
+    "scope": "A-share ETF rotation research, simulated execution, and non-production execution-policy validation.",
+    "primary_strategies": [
+      "b17_base_5d",
+      "hold_bonus_1.0",
+      "core2_satellite1"
+    ],
+    "status": "research-to-paper system; not a production trading system"
+  },
+  "refresh_status": {
+    "status": "ok",
+    "ok": true,
+    "started_at": "2026-07-07T01:00:18.807753+00:00",
+    "finished_at": "2026-07-07T01:01:02.179813+00:00",
+    "live_signal_source_day": "2026-07-06",
+    "ghostfolio_sync_status": "failed",
+    "warning_steps": [
+      "sync_ghostfolio_core2"
+    ]
+  },
+  "same_period": {
+    "common_date_range": {
+      "start": "2025-09-10",
+      "end": "2026-05-18",
+      "folds": 161
+    },
+    "summary": [
+      {
+        "window": "60",
+        "strategy": "b17_base_5d",
+        "window_start": "2026-02-10",
+        "window_end": "2026-05-18",
+        "folds": 60,
+        "total_return_pct": 2.1278,
+        "max_drawdown_pct": -11.7813,
+        "win_rate_pct": 50.0,
+        "mean_turnover_pct": 14.7222,
+        "avg_holding_days": 6.43,
+        "buy_count": 28,
+        "sell_count": 25
+      },
+      {
+        "window": "60",
+        "strategy": "hold_bonus_1.0",
+        "window_start": "2026-02-10",
+        "window_end": "2026-05-18",
+        "folds": 60,
+        "total_return_pct": 56.1307,
+        "max_drawdown_pct": -14.6947,
+        "win_rate_pct": 58.3333,
+        "mean_turnover_pct": 38.8889,
+        "avg_holding_days": 2.51,
+        "buy_count": 57,
+        "sell_count": 54
+      },
+      {
+        "window": "60",
+        "strategy": "core2_satellite1",
+        "window_start": "2026-02-10",
+        "window_end": "2026-05-18",
+        "folds": 60,
+        "total_return_pct": 25.8171,
+        "max_drawdown_pct": -15.6025,
+        "win_rate_pct": 50.0,
+        "mean_turnover_pct": 31.3889,
+        "avg_holding_days": 3.19,
+        "buy_count": 48,
+        "sell_count": 45
+      },
+      {
+        "window": "120",
+        "strategy": "b17_base_5d",
+        "window_start": "2025-11-14",
+        "window_end": "2026-05-18",
+        "folds": 120,
+        "total_return_pct": 23.8654,
+        "max_drawdown_pct": -14.8857,
+        "win_rate_pct": 55.0,
+        "mean_turnover_pct": 15.1389,
+        "avg_holding_days": 6.43,
+        "buy_count": 56,
+        "sell_count": 53
+      },
+      {
+        "window": "120",
+        "strategy": "hold_bonus_1.0",
+        "window_start": "2025-11-14",
+        "window_end": "2026-05-18",
+        "folds": 120,
+        "total_return_pct": 76.5166,
+        "max_drawdown_pct": -17.3758,
+        "win_rate_pct": 57.5,
+        "mean_turnover_pct": 35.0,
+        "avg_holding_days": 2.88,
+        "buy_count": 106,
+        "sell_count": 103
+      },
+      {
+        "window": "120",
+        "strategy": "core2_satellite1",
+        "window_start": "2025-11-14",
+        "window_end": "2026-05-18",
+        "folds": 120,
+        "total_return_pct": 55.7126,
+        "max_drawdown_pct": -16.1722,
+        "win_rate_pct": 57.5,
+        "mean_turnover_pct": 30.4167,
+        "avg_holding_days": 3.45,
+        "buy_count": 95,
+        "sell_count": 92
+      },
+      {
+        "window": "all",
+        "strategy": "b17_base_5d",
+        "window_start": "2025-09-10",
+        "window_end": "2026-05-18",
+        "folds": 161,
+        "total_return_pct": 51.8323,
+        "max_drawdown_pct": -11.7813,
+        "win_rate_pct": 55.9006,
+        "mean_turnover_pct": 15.4244,
+        "avg_holding_days": 6.36,
+        "buy_count": 76,
+        "sell_count": 73
+      },
+      {
+        "window": "all",
+        "strategy": "hold_bonus_1.0",
+        "window_start": "2025-09-10",
+        "window_end": "2026-05-18",
+        "folds": 161,
+        "total_return_pct": 104.8652,
+        "max_drawdown_pct": -17.3758,
+        "win_rate_pct": 59.0062,
+        "mean_turnover_pct": 35.0932,
+        "avg_holding_days": 2.9,
+        "buy_count": 143,
+        "sell_count": 140
+      },
+      {
+        "window": "all",
+        "strategy": "core2_satellite1",
+        "window_start": "2025-09-10",
+        "window_end": "2026-05-18",
+        "folds": 161,
+        "total_return_pct": 68.5787,
+        "max_drawdown_pct": -15.0938,
+        "win_rate_pct": 58.3851,
+        "mean_turnover_pct": 29.7101,
+        "avg_holding_days": 3.49,
+        "buy_count": 128,
+        "sell_count": 125
+      }
+    ],
+    "curves": {
+      "b17_base_5d__60": [
+        {
+          "date": "2026-02-10",
+          "value_pct": 2.5775,
+          "turnover_pct": 50.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 0.8058,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 3.4657,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 4.3641,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 6.8143,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 4.8917,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 2.8517,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 1.3216,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": -3.9597,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": -2.3021,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": -3.5519,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": -3.4956,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": -1.3611,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": -0.8711,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 1.2657,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 0.7607,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": -1.1258,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": -1.1444,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": -0.6092,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 1.9718,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": -0.1772,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 0.7155,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 1.1926,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 2.2824,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 3.5732,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": -0.551,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 2.0226,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 2.3032,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 0.8098,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 1.9932,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 8.9282,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 8.3824,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 2.31,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 3.1464,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 2.5066,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 2.2293,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 0.5157,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": -1.8204,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": -2.2323,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": -0.235,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": -2.4504,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": -2.9142,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": -3.5767,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": -3.905,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 1.5064,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": -0.2029,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": -1.1428,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 0.4044,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 2.2074,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 0.8451,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 3.0561,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 3.4545,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 4.9615,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 6.5762,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 5.0844,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 7.9508,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 3.7528,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 2.6412,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 2.6651,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 2.1278,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        }
+      ],
+      "hold_bonus_1.0__60": [
+        {
+          "date": "2026-02-10",
+          "value_pct": 3.9677,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 2.7891,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 6.0195,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 7.102,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 9.1608,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 9.0808,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 21.9449,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 25.5106,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 19.8624,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 21.8243,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 21.6341,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 22.8818,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 19.1182,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 21.0495,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 24.2809,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 23.6318,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 21.4067,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 20.6628,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 23.1542,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 25.827,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 23.4986,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 26.9095,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 26.465,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 32.0822,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 32.287,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 37.0273,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 47.1952,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 45.2777,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 41.2934,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 40.5476,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 44.4513,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 43.0724,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 45.9241,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 48.2648,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 46.1918,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 46.9798,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 40.2688,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 33.1412,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 32.9904,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 35.5199,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 32.9649,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 32.3278,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 29.9329,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 26.4777,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 35.1337,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 33.6908,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 35.4299,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 35.7731,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 39.4909,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 40.9191,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 43.6206,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 45.6104,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 49.5646,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 52.0113,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 49.3297,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 55.1102,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 50.0653,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 51.0463,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 52.5665,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 56.1307,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        }
+      ],
+      "core2_satellite1__60": [
+        {
+          "date": "2026-02-10",
+          "value_pct": 3.9677,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 2.5998,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 5.7771,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 8.4791,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 9.261,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 8.909,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 13.7338,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 18.6979,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 14.5966,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 16.5155,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 15.0773,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 15.6698,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 12.4577,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 14.281,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 17.9764,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 18.8493,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 16.3244,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 14.1483,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 13.3234,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 16.2673,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 11.8222,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 10.6543,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 8.9594,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 12.2326,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 11.5171,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 14.9566,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 20.828,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 21.8395,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 22.447,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 19.7966,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 23.2485,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 22.0843,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 20.7087,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 22.37,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 21.611,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 20.8801,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 15.3608,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 9.4989,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 9.3748,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 11.4551,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 9.3539,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 8.8299,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 6.8603,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 4.0186,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 11.1376,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 9.9509,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 12.0975,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 11.605,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 13.651,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 13.4015,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 16.1814,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 17.8728,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 21.1807,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 23.8636,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 23.0431,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 29.0171,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 24.5856,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 21.592,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 21.9278,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 25.8171,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        }
+      ],
+      "b17_base_5d__120": [
+        {
+          "date": "2025-11-14",
+          "value_pct": 1.6278,
+          "turnover_pct": 50.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 2.4796,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 2.2316,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": -1.0614,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": -2.6098,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": -0.6819,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": -0.2392,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": -0.3137,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": -0.74,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 0.0899,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 0.8085,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": -0.1916,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": -2.1702,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": -1.6253,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": -0.6731,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 0.5355,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 0.2594,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 1.3618,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 0.3493,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": -0.0185,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": -0.8621,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": -2.9088,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": -2.2754,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": -2.2978,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": -0.2291,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": -0.1493,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": -1.4844,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 0.0769,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 3.6247,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 5.3416,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 4.6041,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 5.404,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 5.8985,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 8.449,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 10.8876,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 10.739,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 9.6225,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 14.102,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 25.815,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 17.4312,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 19.8555,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 20.722,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 18.9761,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 19.706,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 18.1104,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 21.6378,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 22.5712,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 28.3166,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 30.2964,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 32.3681,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 40.6397,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 33.6271,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 23.2109,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 24.4244,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 31.4292,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 26.1497,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 19.7045,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 27.0516,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 27.7998,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 27.8138,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 29.7653,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 28.7018,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 31.8385,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 33.2407,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 33.8586,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 32.415,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 30.8857,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 30.3844,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 23.5883,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 25.7213,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 24.113,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 24.1855,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 27.0101,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 27.33,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 31.5835,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 30.9744,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 29.0825,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 28.079,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 28.8828,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 32.521,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 28.7216,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 29.7528,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 32.0726,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 33.9515,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 36.4715,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 30.7892,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 32.3784,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 32.6952,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 28.9492,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 31.8024,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 37.2129,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 35.579,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 30.6717,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 33.8774,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 32.8485,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 33.0689,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 29.8374,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 25.5298,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 24.6995,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 27.247,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 24.4213,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 23.8297,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 22.9848,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 22.566,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 27.3263,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 25.1822,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 24.0032,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 25.9439,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 28.2056,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 26.4968,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 25.5236,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 26.1813,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 28.0997,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 28.879,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 26.2189,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 30.9278,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 25.8363,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 24.4881,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 24.517,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 23.8654,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        }
+      ],
+      "hold_bonus_1.0__120": [
+        {
+          "date": "2025-11-14",
+          "value_pct": 1.5314,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 2.5055,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 2.6708,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": -0.1351,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": -0.5009,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": -0.0366,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": 1.2204,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": 4.983,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": 4.7534,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 6.2755,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 7.1635,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": 5.886,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": 4.4234,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": 4.3465,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": 7.833,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 8.8508,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 7.5574,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 9.116,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 7.3861,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": 7.1036,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": 6.5717,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": 5.1195,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": 5.7151,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": 5.2833,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": 6.1696,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": 7.867,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": 7.2254,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 7.9661,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 8.6308,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 8.7261,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 6.861,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 7.6829,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 7.9748,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 10.9173,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 14.0971,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 12.8838,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 17.9307,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 21.5271,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 27.5529,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 19.7734,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 20.7523,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 21.2669,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 18.3957,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 22.1172,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 16.0583,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 16.5186,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 21.8137,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 27.2995,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 22.7544,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 27.2341,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 22.9458,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 19.601,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 16.6643,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 13.8306,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 18.74,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 13.6363,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 5.3896,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 13.1158,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 13.6959,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 12.8127,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 17.5427,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 16.2102,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 19.8624,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 21.0862,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 23.4138,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 23.3234,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 37.8671,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 41.8984,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 35.5127,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 37.7308,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 37.5157,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 38.9264,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 34.6713,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 36.8548,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 40.5082,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 39.7743,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 37.2586,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 36.4177,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 39.2344,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 42.2562,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 39.6237,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 43.48,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 42.9774,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 49.328,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 49.5595,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 54.9188,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 66.4144,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 64.2465,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 59.7419,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 58.8988,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 63.3122,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 61.7532,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 64.9772,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 67.6235,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 65.2799,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 66.1708,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 58.5835,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 50.5254,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 50.3548,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 53.2146,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 50.326,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 49.6057,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 46.8982,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 42.9918,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 52.778,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 51.1467,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 53.1129,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 53.5009,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 57.7041,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 59.3188,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 62.373,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 64.6227,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 69.0931,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 71.8592,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 68.8275,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 75.3628,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 69.6591,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 70.7682,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 72.4869,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 76.5166,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        }
+      ],
+      "core2_satellite1__120": [
+        {
+          "date": "2025-11-14",
+          "value_pct": 1.5314,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 2.5055,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 2.7466,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": -0.1638,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": -2.0419,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": -0.4552,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": 0.9423,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": 5.4747,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": 5.6632,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 6.99,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 8.7569,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": 8.7505,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": 7.7158,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": 7.6364,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": 10.0104,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 9.8674,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 8.787,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 9.3806,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 8.4328,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": 8.8178,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": 8.1442,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": 6.578,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": 8.3248,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": 8.7616,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": 9.2113,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": 12.4367,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": 12.6452,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 12.7698,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 12.2406,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 12.3828,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 12.1794,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 12.1575,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 12.2452,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 12.897,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 16.3326,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 15.9748,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 24.8369,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 31.5415,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 40.2948,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 30.4067,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 30.8952,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 30.2031,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 29.7272,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 31.9333,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 33.0803,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 32.0229,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 36.8144,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 41.3749,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 35.577,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 38.4946,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 38.2476,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 33.5867,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 27.1241,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 24.8907,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 29.9601,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 25.455,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 18.5114,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 27.1996,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 27.8519,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 26.8588,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 30.6388,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 29.7418,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 31.8927,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 30.6068,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 32.478,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 30.6518,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 33.9869,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 35.9522,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 33.7151,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 31.2661,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 30.6783,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 35.704,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 29.6717,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 31.4293,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 31.4709,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 30.2041,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 28.5574,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 29.1183,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 29.4825,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 32.928,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 29.969,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 33.8137,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 33.8327,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 39.7771,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 40.4824,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 35.7388,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 40.1627,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 42.5293,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 43.1554,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 43.2562,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 47.3841,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 45.9919,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 49.3619,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 52.707,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 51.5334,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 52.3502,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 45.394,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 38.006,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 37.8496,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 40.4716,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 37.8233,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 36.8979,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 34.6035,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 33.9478,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 39.0891,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 38.4161,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 40.4065,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 40.1366,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 43.831,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 41.4455,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 43.9094,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 46.0044,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 51.4746,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 52.6222,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 51.732,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 55.8013,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 52.2816,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 52.6864,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 52.8257,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 55.7126,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        }
+      ],
+      "b17_base_5d__all": [
+        {
+          "date": "2025-09-10",
+          "value_pct": 4.8443,
+          "turnover_pct": 50.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-11",
+          "value_pct": 7.8127,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-12",
+          "value_pct": 5.6687,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-15",
+          "value_pct": 6.0599,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-16",
+          "value_pct": 8.2054,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-17",
+          "value_pct": 8.8873,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-18",
+          "value_pct": 9.0505,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-19",
+          "value_pct": 7.8116,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-22",
+          "value_pct": 9.0738,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-23",
+          "value_pct": 9.2172,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-24",
+          "value_pct": 8.2181,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-25",
+          "value_pct": 8.3809,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-26",
+          "value_pct": 8.7849,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-29",
+          "value_pct": 7.5566,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-30",
+          "value_pct": 7.5434,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-09",
+          "value_pct": 5.5555,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-10",
+          "value_pct": 7.8172,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-13",
+          "value_pct": 7.1445,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-14",
+          "value_pct": 7.5948,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-15",
+          "value_pct": 6.9199,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-16",
+          "value_pct": 4.0079,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-17",
+          "value_pct": 3.9935,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-20",
+          "value_pct": 4.1903,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-21",
+          "value_pct": 3.0651,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-22",
+          "value_pct": 5.095,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-23",
+          "value_pct": 10.5446,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-24",
+          "value_pct": 10.6629,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-27",
+          "value_pct": 11.5449,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-28",
+          "value_pct": 12.5827,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-29",
+          "value_pct": 10.1604,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-30",
+          "value_pct": 9.0651,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-31",
+          "value_pct": 10.3684,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-03",
+          "value_pct": 6.3956,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-04",
+          "value_pct": 7.8357,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-05",
+          "value_pct": 8.746,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-06",
+          "value_pct": 8.761,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-07",
+          "value_pct": 8.7727,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-10",
+          "value_pct": 7.0175,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-11",
+          "value_pct": 7.7352,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-12",
+          "value_pct": 7.3377,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-13",
+          "value_pct": 5.7064,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-14",
+          "value_pct": 6.4908,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 7.5181,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 8.1056,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": 4.863,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": 4.0321,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": 6.075,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": 6.1192,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": 6.5537,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": 5.4599,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 7.7378,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 8.7684,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": 7.2344,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": 5.3498,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": 6.1689,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": 7.2501,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 8.1549,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 7.6349,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 8.0785,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 5.4648,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": 6.6249,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": 5.0501,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": 3.409,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": 4.9534,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": 6.7308,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": 7.4912,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": 7.8272,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": 6.3854,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 5.8272,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 6.9377,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 8.6466,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 5.6876,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 7.7103,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 11.084,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 11.4007,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 14.515,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 13.7165,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 19.7772,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 25.8791,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 28.8402,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 27.037,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 28.1468,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 33.1853,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 32.7434,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 35.3992,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 31.1432,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 31.8631,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 37.6733,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 42.5558,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 32.3993,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 37.2675,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 32.8335,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 34.165,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 33.4722,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 31.4631,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 33.2208,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 29.4616,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 26.458,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 33.5582,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 34.3456,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 34.1291,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 36.7915,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 35.8473,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 38.4921,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 41.7301,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 44.6215,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 43.4546,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 51.8946,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 57.6757,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 50.2631,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 53.3378,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 51.6658,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 51.1812,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 54.8304,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 56.0625,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 59.3717,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 58.634,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 56.3426,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 55.1271,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 56.1007,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 58.5612,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 56.2898,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 55.4287,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 57.1697,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 59.163,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 61.4589,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 55.8467,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 58.2166,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 58.1363,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 54.6834,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 56.8543,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 61.9424,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 61.1308,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 52.1032,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 53.3466,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 52.3955,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 51.9832,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 49.4355,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 45.9625,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 45.3502,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 48.3195,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 45.0259,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 44.3364,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 43.3515,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 42.8634,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 50.9084,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 48.3672,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 46.9699,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 49.27,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 51.9506,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 49.9253,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 53.2124,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 53.8047,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 56.0451,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 58.4456,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 56.2279,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 60.4893,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 54.2482,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 52.5955,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 52.631,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 51.8323,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        }
+      ],
+      "hold_bonus_1.0__all": [
+        {
+          "date": "2025-09-10",
+          "value_pct": 6.0965,
+          "turnover_pct": 50.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-11",
+          "value_pct": 9.9637,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-12",
+          "value_pct": 7.7648,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-15",
+          "value_pct": 8.3527,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-16",
+          "value_pct": 8.4114,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-17",
+          "value_pct": 11.3285,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-18",
+          "value_pct": 11.6068,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-19",
+          "value_pct": 16.4212,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-22",
+          "value_pct": 11.2704,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-23",
+          "value_pct": 13.4506,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-24",
+          "value_pct": 14.0849,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-25",
+          "value_pct": 14.5383,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2025-09-26",
+          "value_pct": 15.8905,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-29",
+          "value_pct": 14.62,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-30",
+          "value_pct": 14.187,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-09",
+          "value_pct": 7.2176,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-10",
+          "value_pct": 7.6881,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-13",
+          "value_pct": 10.4867,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-14",
+          "value_pct": 10.7142,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-15",
+          "value_pct": 11.3704,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-16",
+          "value_pct": 10.4318,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-17",
+          "value_pct": 9.7499,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-20",
+          "value_pct": 10.3403,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-21",
+          "value_pct": 9.4688,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-22",
+          "value_pct": 10.8158,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-23",
+          "value_pct": 16.5351,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-24",
+          "value_pct": 17.1877,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-27",
+          "value_pct": 17.1691,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-28",
+          "value_pct": 17.769,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-29",
+          "value_pct": 16.0672,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-30",
+          "value_pct": 15.6678,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-31",
+          "value_pct": 15.6953,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "value_pct": 12.1956,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-04",
+          "value_pct": 15.6055,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-05",
+          "value_pct": 17.5862,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-06",
+          "value_pct": 17.3107,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-07",
+          "value_pct": 17.8705,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-10",
+          "value_pct": 16.367,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-11",
+          "value_pct": 17.2863,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-12",
+          "value_pct": 18.0677,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-13",
+          "value_pct": 16.0601,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-14",
+          "value_pct": 17.8374,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 18.9679,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 19.1597,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": 15.9033,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": 15.4787,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": 16.0175,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": 17.4765,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": 21.8433,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": 21.5768,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 23.3434,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 24.374,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": 22.8914,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": 21.1939,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": 21.1047,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": 25.1511,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 26.3323,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 24.8312,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 26.64,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 24.6324,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": 24.3045,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": 23.6872,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": 22.0018,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": 22.693,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": 22.1919,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": 23.2206,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": 25.1905,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": 24.4459,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 25.3055,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 26.077,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 26.1875,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 24.0229,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 24.9769,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 25.3156,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 28.7307,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 32.4211,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 31.013,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 36.8704,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 41.0444,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 48.038,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 39.0091,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 40.1451,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 40.7425,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 37.4102,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 41.7293,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 34.6973,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 35.2315,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 41.377,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 47.7438,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 42.4688,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 47.668,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 42.6909,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 38.809,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 35.4007,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 32.1119,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 37.8098,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 31.8864,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 22.3152,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 31.2823,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 31.9555,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 30.9305,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 36.4201,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 34.8736,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 39.1124,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 40.5327,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 43.2341,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 43.1292,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 60.0087,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 64.6874,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 57.2761,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 59.8504,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 59.6008,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 61.238,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 56.2996,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 58.8338,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 63.0739,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 62.2221,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 59.3024,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 58.3264,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 61.5955,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 65.1026,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 62.0473,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 66.523,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 65.9397,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 73.3102,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 73.5789,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 79.7989,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 93.1406,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 90.6246,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 85.3966,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 84.418,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 89.5403,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 87.7309,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 91.4726,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 94.544,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 91.824,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 92.8579,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 84.0521,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 74.6998,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 74.5018,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 77.8209,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 74.4685,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 73.6324,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 70.4901,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 65.9563,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 77.3142,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 75.421,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 77.7029,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 78.1532,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 83.0315,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 84.9055,
+          "turnover_pct": 100.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 88.4502,
+          "turnover_pct": 100.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 91.0612,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 96.2496,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 99.4599,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 95.9413,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 103.5261,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 96.9065,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 98.1937,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 100.1884,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 104.8652,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        }
+      ],
+      "core2_satellite1__all": [
+        {
+          "date": "2025-09-10",
+          "value_pct": 6.0965,
+          "turnover_pct": 50.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-11",
+          "value_pct": 9.9637,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-12",
+          "value_pct": 7.7648,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-15",
+          "value_pct": 8.3526,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-16",
+          "value_pct": 9.9627,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-17",
+          "value_pct": 10.6593,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-18",
+          "value_pct": 8.7705,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-19",
+          "value_pct": 13.3853,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-22",
+          "value_pct": 8.3689,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-23",
+          "value_pct": 10.4923,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-24",
+          "value_pct": 12.5786,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-25",
+          "value_pct": 9.8426,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-26",
+          "value_pct": 12.443,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-29",
+          "value_pct": 11.5835,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-09-30",
+          "value_pct": 11.1619,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-09",
+          "value_pct": 1.9603,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-10",
+          "value_pct": 4.081,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-13",
+          "value_pct": 6.7859,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-14",
+          "value_pct": 7.0057,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-15",
+          "value_pct": 8.5144,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-16",
+          "value_pct": 7.7955,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-17",
+          "value_pct": 7.9401,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-20",
+          "value_pct": 8.4144,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-21",
+          "value_pct": 7.558,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-22",
+          "value_pct": 8.8698,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-23",
+          "value_pct": 14.4886,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-24",
+          "value_pct": 14.0896,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-27",
+          "value_pct": 14.687,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-10-28",
+          "value_pct": 16.1527,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-29",
+          "value_pct": 13.9526,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-30",
+          "value_pct": 13.5605,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-10-31",
+          "value_pct": 13.5875,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-03",
+          "value_pct": 10.1515,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-04",
+          "value_pct": 12.6366,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-05",
+          "value_pct": 14.5675,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-06",
+          "value_pct": 15.7349,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-07",
+          "value_pct": 15.6444,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-10",
+          "value_pct": 14.1928,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-11",
+          "value_pct": 13.8903,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2025-11-12",
+          "value_pct": 14.6491,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-13",
+          "value_pct": 12.6996,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-14",
+          "value_pct": 13.8509,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-17",
+          "value_pct": 14.9937,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-18",
+          "value_pct": 14.8121,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-19",
+          "value_pct": 11.6253,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-20",
+          "value_pct": 10.276,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-21",
+          "value_pct": 12.3032,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-24",
+          "value_pct": 14.6555,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-25",
+          "value_pct": 15.3937,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-26",
+          "value_pct": 14.7051,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-27",
+          "value_pct": 15.6271,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-11-28",
+          "value_pct": 16.2865,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-01",
+          "value_pct": 15.2481,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-02",
+          "value_pct": 13.8564,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-03",
+          "value_pct": 14.5524,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-04",
+          "value_pct": 17.2076,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-05",
+          "value_pct": 18.1981,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-08",
+          "value_pct": 16.8846,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-09",
+          "value_pct": 17.5555,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-10",
+          "value_pct": 15.9663,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-11",
+          "value_pct": 16.2475,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-12",
+          "value_pct": 14.9194,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-15",
+          "value_pct": 13.3013,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-16",
+          "value_pct": 15.433,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-17",
+          "value_pct": 15.5105,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-18",
+          "value_pct": 16.0253,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-19",
+          "value_pct": 18.5218,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-22",
+          "value_pct": 17.7719,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-23",
+          "value_pct": 17.8977,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-24",
+          "value_pct": 18.0052,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-25",
+          "value_pct": 18.3791,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-26",
+          "value_pct": 17.3932,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-29",
+          "value_pct": 16.4487,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-30",
+          "value_pct": 16.5332,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2025-12-31",
+          "value_pct": 19.2719,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-05",
+          "value_pct": 23.7556,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-06",
+          "value_pct": 22.6204,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-07",
+          "value_pct": 31.8861,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-08",
+          "value_pct": 39.0603,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-09",
+          "value_pct": 46.762,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-12",
+          "value_pct": 37.9241,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-13",
+          "value_pct": 38.9009,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-14",
+          "value_pct": 38.8432,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-15",
+          "value_pct": 37.4242,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-16",
+          "value_pct": 39.6184,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-19",
+          "value_pct": 34.9466,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-20",
+          "value_pct": 35.1282,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-21",
+          "value_pct": 41.9785,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-22",
+          "value_pct": 51.6764,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-23",
+          "value_pct": 38.7114,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-01-26",
+          "value_pct": 43.7734,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-27",
+          "value_pct": 45.2307,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-28",
+          "value_pct": 41.6545,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-29",
+          "value_pct": 38.0418,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-01-30",
+          "value_pct": 35.8302,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-02",
+          "value_pct": 38.7817,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-03",
+          "value_pct": 36.3649,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-04",
+          "value_pct": 28.7827,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-05",
+          "value_pct": 37.7599,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-06",
+          "value_pct": 38.2496,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-09",
+          "value_pct": 37.2648,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-10",
+          "value_pct": 41.2812,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-11",
+          "value_pct": 40.6942,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-12",
+          "value_pct": 42.7907,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-13",
+          "value_pct": 41.3985,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-24",
+          "value_pct": 43.4243,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-25",
+          "value_pct": 41.4472,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-02-26",
+          "value_pct": 45.0579,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-02-27",
+          "value_pct": 47.1855,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-02",
+          "value_pct": 44.7636,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-03",
+          "value_pct": 42.1122,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-04",
+          "value_pct": 41.4759,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-05",
+          "value_pct": 46.9168,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-06",
+          "value_pct": 40.3861,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-09",
+          "value_pct": 42.2889,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-10",
+          "value_pct": 42.334,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-11",
+          "value_pct": 40.9625,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-12",
+          "value_pct": 39.1798,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-13",
+          "value_pct": 39.7869,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-16",
+          "value_pct": 40.1813,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-17",
+          "value_pct": 43.9115,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-18",
+          "value_pct": 40.708,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-19",
+          "value_pct": 44.8703,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-20",
+          "value_pct": 44.8909,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-23",
+          "value_pct": 51.3265,
+          "turnover_pct": 50.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-24",
+          "value_pct": 52.0901,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-25",
+          "value_pct": 46.9546,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-26",
+          "value_pct": 51.744,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "value_pct": 54.3061,
+          "turnover_pct": 33.3333,
+          "position_count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "value_pct": 54.984,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-03-31",
+          "value_pct": 55.093,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-01",
+          "value_pct": 59.562,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-02",
+          "value_pct": 58.0549,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-03",
+          "value_pct": 61.7032,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-07",
+          "value_pct": 65.3248,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-08",
+          "value_pct": 64.0542,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-09",
+          "value_pct": 64.9385,
+          "turnover_pct": 66.6667,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-10",
+          "value_pct": 57.4075,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-13",
+          "value_pct": 49.4091,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-14",
+          "value_pct": 49.2397,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "value_pct": 52.0783,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-16",
+          "value_pct": 49.2112,
+          "turnover_pct": 0.0,
+          "position_count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "value_pct": 48.2094,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-20",
+          "value_pct": 45.7254,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-21",
+          "value_pct": 45.0156,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "value_pct": 50.5817,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-23",
+          "value_pct": 49.853,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-24",
+          "value_pct": 52.0079,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "value_pct": 51.7157,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-28",
+          "value_pct": 55.7154,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-29",
+          "value_pct": 53.1328,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "value_pct": 55.8002,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-06",
+          "value_pct": 58.0683,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-07",
+          "value_pct": 63.9905,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-08",
+          "value_pct": 65.233,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-11",
+          "value_pct": 64.2692,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-12",
+          "value_pct": 68.6747,
+          "turnover_pct": 0.0,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-13",
+          "value_pct": 64.8642,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-14",
+          "value_pct": 65.3025,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-15",
+          "value_pct": 65.4533,
+          "turnover_pct": 33.3333,
+          "position_count": 3
+        },
+        {
+          "date": "2026-05-18",
+          "value_pct": 68.5787,
+          "turnover_pct": 66.6667,
+          "position_count": 3
+        }
+      ]
+    }
+  },
+  "live_signals": {
+    "hold_bonus_1.0": {
+      "strategy": "hold_bonus_1.0",
+      "signal_source_day": "2026-07-06",
+      "next_exec_day": "2026-07-07",
+      "generated_at": "2026-07-07T01:00:46.889611+00:00",
+      "top_targets": [
+        {
+          "symbol": "SZ159259",
+          "name": "",
+          "rank": null,
+          "score": null
+        },
+        {
+          "symbol": "SZ159516",
+          "name": "",
+          "rank": null,
+          "score": null
+        },
+        {
+          "symbol": "SZ159967",
+          "name": "",
+          "rank": null,
+          "score": null
+        }
+      ],
+      "planned_buy_count": 2,
+      "planned_sell_count": 2,
+      "summary": {
+        "mean_turnover_pct": 34.0385,
+        "avg_holding_days": 3.0,
+        "buy_count": 229,
+        "sell_count": 226
+      }
+    },
+    "core2_satellite1": {
+      "strategy": "core2_satellite1",
+      "signal_source_day": "2026-07-06",
+      "next_exec_day": "2026-07-07",
+      "generated_at": "2026-07-07T01:00:53.479633+00:00",
+      "top_targets": [
+        {
+          "symbol": "SH512170",
+          "name": "",
+          "rank": null,
+          "score": null
+        },
+        {
+          "symbol": "SZ159516",
+          "name": "",
+          "rank": null,
+          "score": null
+        },
+        {
+          "symbol": "SZ159967",
+          "name": "",
+          "rank": null,
+          "score": null
+        }
+      ],
+      "planned_buy_count": 3,
+      "planned_sell_count": 3,
+      "summary": {
+        "mean_turnover_pct": 24.359,
+        "avg_holding_days": 4.23,
+        "buy_count": 175,
+        "sell_count": 172
+      }
+    }
+  },
+  "execution_research": {
+    "candidate_policy_status": "FROZEN_HYPOTHESIS",
+    "candidate_window": "sell_10m_to_sell_50m",
+    "representative_candidate": "sell_45m",
+    "broad_window_evidence": {
+      "policy_count": 9,
+      "positive_mean_policy_count": 9,
+      "positive_median_policy_count": 9,
+      "win_rate_above_open_policy_count": 9,
+      "positive_mean_policy_share": 1.0,
+      "positive_median_policy_share": 1.0,
+      "win_rate_above_open_policy_share": 1.0,
+      "all_policies_mean_positive": true,
+      "all_policies_median_positive": true,
+      "all_policies_win_rate_above_open": true
+    },
+    "window_clusters": [
+      {
+        "window": "open_only",
+        "policies": "sell_open",
+        "average_mean_vs_open_pct": 0.0,
+        "average_median_vs_open_pct": 0.0,
+        "average_win_rate_pct": 0.0,
+        "window_consistency_score": 0
+      },
+      {
+        "window": "early_delay",
+        "policies": "sell_5m,sell_10m,sell_15m",
+        "average_mean_vs_open_pct": 0.0987,
+        "average_median_vs_open_pct": 0.2483,
+        "average_win_rate_pct": 59.7598,
+        "window_consistency_score": 1.0
+      },
+      {
+        "window": "mid_delay",
+        "policies": "sell_20m,sell_25m,sell_30m",
+        "average_mean_vs_open_pct": 0.1141,
+        "average_median_vs_open_pct": 0.2376,
+        "average_win_rate_pct": 57.6577,
+        "window_consistency_score": 1.0
+      },
+      {
+        "window": "late_delay",
+        "policies": "sell_35m,sell_40m,sell_45m,sell_50m",
+        "average_mean_vs_open_pct": 0.2411,
+        "average_median_vs_open_pct": 0.3506,
+        "average_win_rate_pct": 58.7838,
+        "window_consistency_score": 1.0
+      },
+      {
+        "window": "very_late",
+        "policies": "sell_55m,sell_60m",
+        "average_mean_vs_open_pct": 0.1766,
+        "average_median_vs_open_pct": 0.3182,
+        "average_win_rate_pct": 56.3063,
+        "window_consistency_score": 1.0
+      }
+    ],
+    "fixed_time_policy_summary": [
+      {
+        "policy": "sell_10m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.1391,
+        "median_vs_open_pct": 0.2941,
+        "win_rate_vs_open_pct": 60.3604,
+        "p25_pct": -0.3576,
+        "p75_pct": 0.9422
+      },
+      {
+        "policy": "sell_15m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.1439,
+        "median_vs_open_pct": 0.246,
+        "win_rate_vs_open_pct": 58.5586,
+        "p25_pct": -0.6243,
+        "p75_pct": 1.2478
+      },
+      {
+        "policy": "sell_20m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.0443,
+        "median_vs_open_pct": 0.1719,
+        "win_rate_vs_open_pct": 58.5586,
+        "p25_pct": -0.8821,
+        "p75_pct": 0.958
+      },
+      {
+        "policy": "sell_25m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.0818,
+        "median_vs_open_pct": 0.1931,
+        "win_rate_vs_open_pct": 56.7568,
+        "p25_pct": -0.7717,
+        "p75_pct": 1.2948
+      },
+      {
+        "policy": "sell_30m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.2161,
+        "median_vs_open_pct": 0.3479,
+        "win_rate_vs_open_pct": 57.6577,
+        "p25_pct": -0.7886,
+        "p75_pct": 1.488
+      },
+      {
+        "policy": "sell_35m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.2131,
+        "median_vs_open_pct": 0.3754,
+        "win_rate_vs_open_pct": 57.6577,
+        "p25_pct": -0.7752,
+        "p75_pct": 1.3979
+      },
+      {
+        "policy": "sell_40m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.2753,
+        "median_vs_open_pct": 0.3223,
+        "win_rate_vs_open_pct": 58.5586,
+        "p25_pct": -0.8396,
+        "p75_pct": 1.6762
+      },
+      {
+        "policy": "sell_45m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.2561,
+        "median_vs_open_pct": 0.2621,
+        "win_rate_vs_open_pct": 60.3604,
+        "p25_pct": -0.7981,
+        "p75_pct": 1.4214
+      },
+      {
+        "policy": "sell_50m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.22,
+        "median_vs_open_pct": 0.4427,
+        "win_rate_vs_open_pct": 58.5586,
+        "p25_pct": -0.6855,
+        "p75_pct": 1.3678
+      },
+      {
+        "policy": "sell_55m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.176,
+        "median_vs_open_pct": 0.3175,
+        "win_rate_vs_open_pct": 56.7568,
+        "p25_pct": -0.6668,
+        "p75_pct": 1.4785
+      },
+      {
+        "policy": "sell_5m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.013,
+        "median_vs_open_pct": 0.2048,
+        "win_rate_vs_open_pct": 60.3604,
+        "p25_pct": -0.4242,
+        "p75_pct": 0.8247
+      },
+      {
+        "policy": "sell_60m",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.1772,
+        "median_vs_open_pct": 0.319,
+        "win_rate_vs_open_pct": 55.8559,
+        "p25_pct": -0.6765,
+        "p75_pct": 1.3844
+      },
+      {
+        "policy": "sell_open",
+        "event_count": 111,
+        "mean_vs_open_pct": 0.0,
+        "median_vs_open_pct": 0.0,
+        "win_rate_vs_open_pct": 0.0,
+        "p25_pct": 0.0,
+        "p75_pct": 0.0
+      }
+    ],
+    "notes": [
+      "This is a 5m proxy execution study, not a true 1m intraday execution backtest.",
+      "No sell rule is production-approved.",
+      "Future forward 1m validation is required before any production use."
+    ]
+  },
+  "engineering_timeline": [
+    {
+      "phase": "Research",
+      "label": "Feature engineering and rank-rotation backtests"
+    },
+    {
+      "phase": "Execution design",
+      "label": "Hold Bonus and Core2/Satellite constraints"
+    },
+    {
+      "phase": "Paper tracking",
+      "label": "Futu SIMULATE / Ghostfolio observer boundaries"
+    },
+    {
+      "phase": "Execution research",
+      "label": "BaoStock 5m proxy and frozen delayed-sell hypothesis"
+    },
+    {
+      "phase": "Publication",
+      "label": "Static dashboard + Cloudflare/GitHub-ready public artifacts"
+    }
+  ]
+}
