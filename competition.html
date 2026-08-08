@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ETF Research Copilot · Ascend Finance Agent</title>
+    <meta
+      name="description"
+      content="Ascend-powered, tool-augmented ETF research evidence Agent for the Financial Industry Application Agent Hackathon."
+    />
+    <link rel="stylesheet" href="./competition.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="brand-mark">ER</span>
+        <span><strong>ETF Research Copilot</strong><small>Ascend Finance Agent</small></span>
+      </a>
+      <nav class="nav">
+        <a href="#agent">投研 Agent</a>
+        <a href="#evidence">研究证据</a>
+        <a href="#architecture">技术架构</a>
+        <a href="./index.html">原始研究台</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <div class="badges">
+            <span>金融行业应用 Agent 黑客松</span>
+            <span>Ascend / AtomGit API</span>
+            <span>Research-only</span>
+          </div>
+          <p class="section-kicker">从“看图表”升级到“问证据”</p>
+          <h1>让量化研究数据真正可问、可追溯、可解释。</h1>
+          <p class="hero-lede">
+            面向投研人员的证据型 Agent：先规划工具、再读取策略与风险数据、最后调用昇腾模型生成结论，并保留执行轨迹与数据边界。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#agent">立即运行 Agent</a>
+            <a class="secondary-link" href="#architecture">查看架构</a>
+          </div>
+        </div>
+        <aside class="hero-console">
+          <div class="console-line"><span>Agent loop</span><strong>Plan → Retrieve → Synthesize</strong></div>
+          <div class="console-line"><span>LLM</span><strong>deepseek-v4-flash</strong></div>
+          <div class="console-line"><span>Inference</span><strong>Ascend / AtomGit API</strong></div>
+          <div class="console-line"><span>Broker</span><strong>Disconnected</strong></div>
+          <div class="console-line"><span>Evidence</span><strong>Public-safe JSON</strong></div>
+        </aside>
+      </section>
+
+      <section id="guardrails" class="guardrail-strip">
+        <div><strong>Evidence-grounded</strong><span>数值只来自仓库中的可审计研究数据。</span></div>
+        <div><strong>Explainable trace</strong><span>前端展示 Planner、工具检索与模型生成轨迹。</span></div>
+        <div><strong>Hard safety boundary</strong><span>不连接券商、不下单、不做个性化买卖指令。</span></div>
+      </section>
+
+      <section id="evidence" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Research evidence · same-period backtest</p>
+          <h2>现有研究资产直接变成 Agent 工具层</h2>
+          <p>以下为仓库 public-safe 数据中的全样本历史结果，仅用于展示 Agent 可检索的证据类型，不代表未来表现。</p>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card">
+            <span>Baseline 5D</span><strong>+51.83%</strong>
+            <dl><div><dt>Max drawdown</dt><dd>-11.78%</dd></div><div><dt>Turnover</dt><dd>15.42%</dd></div></dl>
+          </article>
+          <article class="metric-card">
+            <span>Hold Bonus</span><strong>+104.87%</strong>
+            <dl><div><dt>Max drawdown</dt><dd>-17.38%</dd></div><div><dt>Turnover</dt><dd>35.09%</dd></div></dl>
+          </article>
+          <article class="metric-card">
+            <span>Core2 / Satellite</span><strong>+68.58%</strong>
+            <dl><div><dt>Max drawdown</dt><dd>-15.09%</dd></div><div><dt>Turnover</dt><dd>29.71%</dd></div></dl>
+          </article>
+        </div>
+        <p class="data-note">Data snapshot: 2026-07-07 · Common research period: 2025-09-10 to 2026-05-18 · 161 folds.</p>
+      </section>
+
+      <section id="architecture" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Technical architecture</p>
+          <h2>两阶段 Agent：让模型负责判断，让工具负责事实</h2>
+        </div>
+        <div class="architecture-grid">
+          <article><span>01</span><h3>Planner</h3><p>昇腾模型根据问题选择最少必要工具，而不是把整份数据无差别塞进上下文。</p></article>
+          <article><span>02</span><h3>Evidence Tools</h3><p>策略对比、模拟信号、执行研究、风险边界等工具从本地 public-safe JSON 取数。</p></article>
+          <article><span>03</span><h3>Synthesizer</h3><p>同一昇腾模型基于结构化证据回答，并明确历史事实、解释与待验证项。</p></article>
+          <article><span>04</span><h3>Trace & Metrics</h3><p>返回工具清单、证据包与 Planner / 模型延迟，便于录屏、答辩和性能展示。</p></article>
+        </div>
+        <div class="api-strip"><code>POST /api/agent/query</code><code>GET /api/health</code><code>GET /api/benchmark?runs=100</code></div>
+      </section>
+
+      <section class="section-shell split-callout">
+        <div><p class="section-kicker">Business fit</p><h2>目标用户：量化研究、基金投研、财富管理研究团队</h2></div>
+        <p>把“找指标 → 对比窗口 → 查风险 → 写结论”的重复工作压缩为一次自然语言查询，同时保留数据来源和安全边界。当前版本不替代研究员，也不直接进入交易执行。</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>ETF Research Copilot · Ascend-powered financial research Agent</span>
+      <span>Not investment advice · No live order capability</span>
+    </footer>
+
+    <script src="./agent.js"></script>
+  </body>
+</html>
