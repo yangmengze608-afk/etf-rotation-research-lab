@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -27,6 +27,11 @@ app = FastAPI(
 
 class AgentRequest(BaseModel):
     question: str = Field(min_length=2, max_length=2000)
+
+
+@app.get("/", include_in_schema=False)
+def competition_home() -> FileResponse:
+    return FileResponse(ROOT / "competition.html")
 
 
 @app.get("/api/health")
