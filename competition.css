@@ -1,0 +1,146 @@
+:root {
+  color-scheme: dark;
+  --bg: #070a12;
+  --panel: rgba(14, 19, 34, 0.78);
+  --line: rgba(255, 255, 255, 0.09);
+  --muted: rgba(232, 238, 255, 0.63);
+  --text: #f5f7ff;
+  --accent: #6f83ff;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 82% 4%, rgba(70, 94, 220, 0.18), transparent 30%),
+    radial-gradient(circle at 12% 18%, rgba(23, 160, 225, 0.09), transparent 32%),
+    var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 16px max(24px, calc((100vw - 1180px) / 2));
+  border-bottom: 1px solid var(--line);
+  background: rgba(7, 10, 18, 0.78);
+  backdrop-filter: blur(18px);
+}
+
+.brand { display: flex; align-items: center; gap: 11px; }
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6f83ff, #35b3ff);
+  font-weight: 800;
+}
+.brand strong, .brand small { display: block; }
+.brand small { margin-top: 2px; color: var(--muted); font-size: 0.74rem; }
+.nav { display: flex; gap: 22px; color: var(--muted); font-size: 0.9rem; }
+.nav a:hover { color: white; }
+
+.section-shell {
+  width: min(1180px, calc(100% - 40px));
+  margin: 28px auto;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(17, 23, 40, 0.82), rgba(9, 13, 24, 0.82));
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.22);
+}
+
+.hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.75fr); gap: 42px; align-items: center; min-height: 520px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.badges span {
+  padding: 6px 9px;
+  border: 1px solid rgba(126, 151, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(84, 106, 208, 0.09);
+  color: rgba(236, 241, 255, 0.76);
+  font-size: 0.75rem;
+}
+.section-kicker { margin: 0 0 8px; color: #91a5ff; text-transform: uppercase; letter-spacing: 0.09em; font-size: 0.76rem; }
+.hero h1 { max-width: 760px; margin: 0; font-size: clamp(2.6rem, 6vw, 5.4rem); line-height: 0.98; letter-spacing: -0.055em; }
+.hero-lede { max-width: 760px; margin: 24px 0 0; color: var(--muted); font-size: 1.08rem; line-height: 1.75; }
+.hero-actions { display: flex; gap: 10px; margin-top: 30px; }
+.primary-link, .secondary-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 16px; border-radius: 12px; font-weight: 700; }
+.primary-link { background: linear-gradient(135deg, #677cff, #37aaf5); }
+.secondary-link { border: 1px solid var(--line); color: rgba(240, 243, 255, 0.82); }
+
+.hero-console {
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(4, 7, 15, 0.6);
+}
+.console-line { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+.console-line:last-child { border-bottom: 0; }
+.console-line span { color: rgba(232, 238, 255, 0.45); }
+.console-line strong { text-align: right; font-size: 0.9rem; }
+
+.guardrail-strip {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--line);
+}
+.guardrail-strip > div { padding: 18px; background: rgba(10, 15, 27, 0.92); }
+.guardrail-strip strong, .guardrail-strip span { display: block; }
+.guardrail-strip span { margin-top: 5px; color: var(--muted); line-height: 1.5; font-size: 0.86rem; }
+
+.section-heading { max-width: 800px; margin-bottom: 24px; }
+.section-heading h2, .split-callout h2 { margin: 5px 0 10px; font-size: clamp(1.8rem, 4vw, 3rem); letter-spacing: -0.035em; }
+.section-heading > p:not(.section-kicker), .split-callout > p { color: var(--muted); line-height: 1.7; }
+
+.metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.metric-card { padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255, 255, 255, 0.025); }
+.metric-card > span { color: var(--muted); }
+.metric-card > strong { display: block; margin: 8px 0 16px; font-size: 2.1rem; }
+.metric-card dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.metric-card dt { color: rgba(232, 238, 255, 0.42); font-size: 0.76rem; }
+.metric-card dd { margin: 4px 0 0; }
+.data-note { margin: 15px 0 0; color: rgba(232, 238, 255, 0.42); font-size: 0.8rem; }
+
+.architecture-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.architecture-grid article { min-height: 180px; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255, 255, 255, 0.02); }
+.architecture-grid article > span { color: #8fa5ff; font-variant-numeric: tabular-nums; }
+.architecture-grid h3 { margin: 28px 0 8px; }
+.architecture-grid p { margin: 0; color: var(--muted); line-height: 1.58; font-size: 0.88rem; }
+.api-strip { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.api-strip code { padding: 7px 10px; border-radius: 9px; background: rgba(111, 131, 255, 0.1); color: #c9d2ff; }
+
+.split-callout { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: end; }
+.footer { width: min(1180px, calc(100% - 40px)); margin: 18px auto 40px; display: flex; justify-content: space-between; gap: 20px; color: rgba(232, 238, 255, 0.42); font-size: 0.8rem; }
+
+@media (max-width: 900px) {
+  .nav { display: none; }
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .guardrail-strip, .metric-grid, .architecture-grid, .split-callout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .section-shell { width: min(100% - 22px, 1180px); padding: 22px; border-radius: 18px; }
+  .topbar { padding-inline: 14px; }
+  .hero h1 { font-size: 2.55rem; }
+  .guardrail-strip, .footer { width: calc(100% - 22px); }
+  .footer { display: block; }
+  .footer span { display: block; margin-top: 6px; }
+}
